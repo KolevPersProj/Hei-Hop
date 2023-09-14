@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<link rel="icon" href="images/logo/logo.jpg">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+	<script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="script/js.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Контакти</title>
+</head>
+<body>
+	<!-- LOADER PAGE -->
+	<div id="loader-wrap">
+		<img alt="Хей-Хоп" src="images/logo/logo.jpg">
+		<div id="loader"></div>
+	</div>
+	<!-- GO TOP -->
+	<div id="go-top">
+		<a  title="Нагоре" href="#main">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+	</div>
+	<!-- HEADER PAGE -->
+	<header class="header">
+		<div class="header-content clearFix">
+			<!-- TOGGLE BUTTON / MOBILE ONLY -->
+			<div id="toggle-btn">
+				<span></span>
+			</div>
+			<!-- LOGO -->
+			<span title="Хей-Хоп" id="logo">
+				<a href="index.html">
+					<img alt="Хей-Хоп" src="images/logo/logo.jpg">
+				</a>
+			</span>
+			<nav class="nav">
+				<ul>
+					<li>
+						<a title="Начало" href="index.html">Начало</a>
+					</li>
+					<li>
+						<a title="За нас" href="za-nas.html">За нас</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropbtn" title="Услуги" href="uslugi/uslugi.html">Услуги</a>
+						<div class="dropdown-content">
+							<a title=" Организиране на рожден ден" href="uslugi/edin-tip.html">
+								<span class="glyphicon glyphicon-menu-right"></span> Организиране на рожден ден
+							</a>
+							<a title="Тематично събитие" href="uslugi/drug-tip.html">
+								<span class="glyphicon glyphicon-menu-right"></span> Тематично събитие
+							</a>
+						</div>
+					</li>
+					<li>
+						<a title="Проекти" href="proekti/vsichki.html">Проекти</a>
+					</li>
+					<li>
+						<a title="Блог" href="blog/blog.html">Блог</a>
+					</li>
+					<li>
+						<a title="Контакти" class="active" href="#">Контакти</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- MAIN CONTENT CONTAINER -->
+	<main id="main" class="main-container">
+		<section class="breadcrumb-wrap">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<h1>Контакти</h1>
+					<ul class="breadcrumb">
+						<li><a href="index.html">Начало</a></li>
+						<li>Контакти</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts-content-container">
+			<div class="section-wrapper">
+				<div class="container-fluid">
+				<div class="row contacts-content">
+					<h2 class="text-center title-second">За връзка с нас</h2>
+					<p class="text-center">Може да се свържете с нас онлайн по всяко време</p>
+					<br>
+					<div class="col-md-6">
+						<legend>Форма за връзка</legend>
+						<form method="post" name="myemailform" action="send.php" accept-charset="UTF-8">
+							<input required="required" type="text" name="first_name" placeholder="*Име:">
+							<input required="required" type="text" name="last_name" placeholder="*Фамилия:">
+							<input type="text" name="subject" placeholder="Предмет:">
+							<input required="required" type="email" name="email" placeholder="*Email:">
+							<br>
+							<label for="message">Съобщение:</label>
+							<textarea rows="4" id="message" name="message" required="required" maxlength="400"></textarea>
+							<br>
+							<button class="btn-link btn-dark" type="submit" name="submit" value="submit">
+								Изпрати
+							</button>
+						</form>
+					</div>
+
+					<div class="col-md-6 contact-card">
+						<img alt="Хей-Хоп" class="logo-dark" src="images/logo/logo.jpg">
+						<br>
+						<h2>Хей-Хоп</h2>
+						<p>
+							тел: 0896 197 093
+						</p>
+						<p>
+							email: ndnfsr@gmail.com
+						</p>
+						<p>
+							СОЦИАЛНИ МРЕЖИ:
+							<br>
+							<a target="_blank" title="Facebook" href="https://www.facebook.com/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8-%D1%86%D0%B5%D0%BD%D1%82%D1%8A%D1%80-%D0%A5%D0%B5%D0%B9-%D0%A5%D0%BE%D0%BF-1152641661421807/"><img alt="Facebook" src="images/social-icons/fb-dark.png"></a>
+							<a target="_blank" title="Google plus" href="#0"><img alt="Google plus" src="images/social-icons/google-plus-dark.png"></a>
+							<a target="_blank" title="LinkedIn" href="#0"><img alt="LinkedIn" src="images/social-icons/in-dark.png"></a>
+							<a title="Instagram" href="#0"><img alt="Instagram" src="images/social-icons/insta-dark.png"></a>
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="footer-content">
+				<div class="container-fluid">
+					<div class="row text-justify">
+						<div class="col-md-4">
+							<h3>За нас</h3>
+							<p>Почасово гледане на деца, организиране на рождени дни и тематични детски празници. Групи по зумба и психологическа подкрепа.</p>
+						</div>
+						<div id="col-service" class="col-md-4">
+							<h3>Карта на сайта</h3>
+							<ul>
+								<li><a href="uslugi/edin-tip.html">
+									<span class="glyphicon glyphicon-menu-right"></span> Препратка 1
+									</a>
+								</li>
+								<li>
+									<a href="uslugi/drug-tip.html">
+										<span class="glyphicon glyphicon-menu-right">	
+										</span>	Препратка 2
+									</a>
+								</li>
+								<li>
+									<a href="proekti/vsichki.html">
+										<span class="glyphicon glyphicon-menu-right">	
+										</span>	Портфолио
+									</a>
+								</li>
+							</ul>	
+							<br>
+							<a class="btn-link btn-light" href="contacts.html">Бързо запитване</a>	
+						</div>
+						<div class="col-md-4">
+							<h3>Контакти</h3>
+							<p>
+								<span class="glyphicon glyphicon-earphone"></span>	0896 197 093
+							</p>
+							<p>
+								<span class="glyphicon glyphicon-envelope"></span>	ndnfsr@gmail.com
+							</p>
+							<br>
+							<p>
+								ПОСЛЕДВАЙТЕ НИ:
+								<br>
+								<a target="_blank" title="Facebook" href="https://www.facebook.com/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8-%D1%86%D0%B5%D0%BD%D1%82%D1%8A%D1%80-%D0%A5%D0%B5%D0%B9-%D0%A5%D0%BE%D0%BF-1152641661421807/"><img alt="Facebook" src="images/social-icons/fb.png"></a>
+								<a target="_blank" title="Google plus" href="#0"><img alt="Google plus" src="images/social-icons/google-plus.png"></a>
+								<a target="_blank" title="LinkedIn" href="#0"><img alt="LinkedIn" src="images/social-icons/in.png"></a>
+								<a title="Instagram" href="#0"><img alt="Instagram" src="images/social-icons/insta.png"></a>
+							</p>
+						</div>
+					</div>
+					<br>
+					<div id="footer-logo" class="text-center">
+						<img alt="Хей-Хоп" src="images/logo/logo.jpg">
+					</div>	
+					<br>
+					<div id="Copyright" class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								&copy; Хей-Хоп 2018 Copyright / All rights reserved
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
